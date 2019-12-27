@@ -29,3 +29,10 @@ build/
 
 ### VS Code ###
 .vscode/
+/HELP.md
+/mvnw.cmd
+/mvnw
+/websocket.iml
+/websocket.ipr
+/websocket.iws
+/.mvn/

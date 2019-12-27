@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>top.mixedinfos</groupId>
-    <artifactId>websocker</artifactId>
+    <artifactId>websocket</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>websocker</name>
+    <name>websocket</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -21,13 +21,8 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-websocket</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

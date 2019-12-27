@@ -1,0 +1,12 @@
+server:
+  port: 8090
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain,text/javascript,text/css,application/javascript
+    min-response-size: 256
+
+spring:
+  mvc:
+    view:
+      prefix: /pages/
+      suffix: .html
